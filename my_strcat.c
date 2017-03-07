@@ -21,9 +21,9 @@ char		*my_strcat(char *dest, char *src)
   char		*str;
 
   j = 0;
-  str = my_malloc(my_strlen(dest) + my_strlen(src) + 1);
-  str = my_strcpy(str, dest);
   i = my_strlen(dest);
+  str = my_malloc(i + my_strlen(src) + 1);
+  str = my_strcpy(str, dest);
   while (src[j] != '\0')
     str[i++] = src[j++];
   str[i] = '\0';
