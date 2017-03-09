@@ -5,7 +5,7 @@
 ** Login   <victor.le-dantec@epitech.eu>
 **
 ** Started on  Mon Jan 30 15:21:00 2017 Victor LE DANTEC
-** Last update Tue Jan 31 12:00:46 2017 Victor LE DANTEC
+** Last update Wed Mar  8 17:06:53 2017 Victor LE DANTEC
 */
 
 #ifndef _LIBMY_H_
