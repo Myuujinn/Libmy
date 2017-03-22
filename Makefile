@@ -5,7 +5,7 @@
 ## Login   <victor.le-dantec@epitech.eu>
 ## 
 ## Started on  Sun Jan 15 11:23:36 2017 Victor LE DANTEC
-## Last update Sun Jan 15 11:44:18 2017 Victor LE DANTEC
+## Last update Wed Mar 22 17:49:01 2017 Victor LE DANTEC
 ##
 
 NAME	=	libmy.a
@@ -14,6 +14,7 @@ SRC	=	my_calloc.c		\
 		my_getnbr.c		\
 		my_malloc.c		\
 		my_memset.c		\
+		my_memcpy.c		\
 		my_power.c		\
 		my_put_adress.c		\
 		my_putchar.c		\
@@ -29,7 +30,9 @@ SRC	=	my_calloc.c		\
 		my_strncmp.c		\
 		my_strncpy.c		\
 		my_swap.c		\
-		my_tabdup.c
+		my_tabdup.c		\
+		op_malloc.c		\
+		op_free.c
 
 OBJ	=	$(SRC:.c=.o)
 
@@ -37,7 +40,7 @@ RM	=	rm -f
 
 CC	=	gcc
 
-CFLAGS	=	-Wall -Wextra -pedantic
+CFLAGS	+=	-Wall -Wextra -pedantic
 
 all:		$(NAME)
 
@@ -52,4 +55,4 @@ fclean:		clean
 
 re:		fclean all
 
-.PHONY:		all clean fclean
+.PHONY:		all clean fclean re
