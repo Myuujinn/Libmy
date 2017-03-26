@@ -5,7 +5,7 @@
 ** Login   <victor.le-dantec@epitech.eu>
 ** 
 ** Started on  Wed Mar 22 15:51:33 2017 Victor LE DANTEC
-** Last update Wed Mar 22 17:34:58 2017 Victor LE DANTEC
+** Last update Sun Mar 26 22:36:08 2017 Victor LE DANTEC
 */
 
 #include "libmy.h"
@@ -27,7 +27,7 @@ void	dup_array(t_malloc *array, long unsigned int *newarray)
   int	i;
 
   i = 0;
-  while (i < array->size)
+  while (i < array->size - 1)
     {
       newarray[i] = array->ptrs[i];
       i++;
