@@ -5,7 +5,7 @@
 ** Login   <victor.le-dantec@epitech.eu>
 **
 ** Started on  Mon Jan 30 15:21:00 2017 Victor LE DANTEC
-** Last update Wed Mar 22 17:38:41 2017 Victor LE DANTEC
+** Last update Sun Mar 26 15:03:22 2017 Victor LE DANTEC
 */
 
 #pragma once
@@ -29,6 +29,7 @@ void		my_putchar(char);
 void		my_put_nbr_base(ssize_t, char *);
 void		my_put_nbr(long long);
 void		my_putstr(char *);
+void		my_putstr_line(char *);
 void		my_putstrerr(char *);
 
 ssize_t		my_power(ssize_t, ssize_t);
